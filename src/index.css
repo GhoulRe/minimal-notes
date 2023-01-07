@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 1rem;
+    list-style: none;
+    background-color: #F7FBEB;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #F7FBEB !important;
+}
+
+@media screen and (max-width:450px) {
+    *{margin: 0.5rem;}
+}
+a{
+   text-decoration: none !important;
+}

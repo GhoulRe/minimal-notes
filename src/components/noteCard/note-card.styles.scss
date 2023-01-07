@@ -1,0 +1,57 @@
+.noteCards{
+    
+    display: flex;
+    // justify-content: center;
+    flex-direction: column;
+    
+    border-radius: 8px;
+    display:  flex;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    height: auto;
+    width: auto;
+   
+   
+    @media screen and (max-width:850px) {
+ 
+    }
+
+    .deleteicon{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        height: 0;
+        span{
+            margin: 0;
+            padding: 0;
+            svg{
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+    .cardDate{
+        span{
+            font-weight: normal;
+        }
+    }
+    .cardTime{
+        span{
+            font-weight: normal;
+        }
+    }
+    .cardTitle{
+        font-weight:500;
+        span{
+            font-weight: normal;
+        }
+    }
+    .cardContent{
+        span{
+            font-weight: normal;
+           }
+    }
+    .cartData{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}

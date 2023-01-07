@@ -1,0 +1,39 @@
+.sign-up-form{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid gray;
+    width: 100%;
+    form{
+        margin: 2rem;
+        width: 80%;
+        height: 480px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid gray;
+        border-radius: 7px;
+      
+        input{
+            width: 300px;
+            margin-top: 0;
+        }
+        @media screen and (max-width:450px) {
+            input{
+                width: 200px;
+            }
+            form{
+                height: 300px;
+          
+            }
+    }
+}
+@media screen and (max-width:450px) {
+    form{
+        height: 450px;
+    }
+}
+
+}
