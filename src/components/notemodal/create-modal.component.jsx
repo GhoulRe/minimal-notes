@@ -24,6 +24,8 @@ const CreateNoteModal = () => {
             // console.log('done');
         }
            await res();
+           setTitleData("");
+           setContentData("");
         }
      
 
